@@ -8,8 +8,6 @@ I have been stugling using some of the features which waste a lot of time while 
 
 # Things I need
 
-## 🧾 Bill of Materials (BOM)
-
 | Qty | Name                          |
 |-----|-------------------------------|
 | 11  | 1N4148 diodes                 |
