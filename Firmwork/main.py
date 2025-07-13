@@ -5,56 +5,45 @@ from kmk.keys import KC
 from kmk.modules.macros import Press, Release, Tap, Macros
 from kmk.modules.encoder import EncoderHandler
 
+COL_PINS = [board.GP26, board.GP27, board.GP28, board.GP29]  # 4 columns
+ROW_PINS = [board.GP4, board.GP2]  # 2 rows
 
+ENC1_A = board.GP3
+ENC1_B = board.GP0
 
-COL0 = board.GP26;
-COL1 = board.GP27;
-COL2 = board.GP28;
-ROW0 = board.GP4;
-ROW1 = board.GP2;
-ROW2 = board.GP1;
-ROW3 = board.GP29;
-SDA = board.GP6;
-SCL = board.GP7;
-SW1A = board.GP3;
-SW1B = board.GP0;
+ENC2_A = board.GP5
+ENC2_B = board.GP1
 
-# Initialize KMK keyboard instance
 keyboard = KMKKeyboard()
-
-# Add macro module
-macros = Macros()
-keyboard.modules.append(macros)
-
-
-
-
-# rotary encoder volume control
-encoder_handler = EncoderHandler()
-keyboard.modules.append(encoder_handler)
-encoder_handler.pins = ((SW1A, SW1B),)
-encoder_handler.map = [((KC.VOLU, KC.VOLD),)]
-
-# Define row and column pins
-ROW_PINS = [ROW0, ROW1, ROW2, ROW3]
-COL_PINS = [COL0, COL1, COL2]
 
 keyboard.matrix = MatrixScanner(
     columns=COL_PINS,
     rows=ROW_PINS,
 )
 
-# Keymap for 11 keys (3x4 matrix with one missing key)
-# I will customise later for my needs probably video editing shortcuts
+encoder_handler = EncoderHandler()
+keyboard.modules.append(encoder_handler)
+
+encoder_handler.pins = (
+    (ENC1_A, ENC1_B),  # Encoder 1
+    (ENC2_A, ENC2_B),  # Encoder 2
+)
+
+encoder_handler.map = [
+    (KC.VOLD, KC.VOLU),   # Encoder 1: volume down/up
+    (KC.LEFT, KC.RIGHT),  # Encoder 2: horizontal nav
+]
+
+macros = Macros()
+keyboard.modules.append(macros)
+
 keyboard.keymap = [
     [
-        KC.MUTE, KC.N1, KC.N2,
-        KC.N3, KC.N4, KC.N5,
-        KC.N6, KC.N7, KC.N8,
-        KC.N9, KC.N0, KC.NO
+        KC.MUTE, KC.N1, KC.N2, KC.N3,   # ROW 0: COL0 to COL3
+        KC.N4,   KC.N5, KC.N6, KC.N7,   # ROW 1: COL0 to COL3
     ]
 ]
 
-# Start KMK
 if __name__ == '__main__':
     keyboard.go()
+
