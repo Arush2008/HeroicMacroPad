@@ -25,30 +25,45 @@ I have been stugling using some of the features which waste a lot of time while 
 
 # Images
 
+## PCB        
+
+![image1](https://hc-cdn.hel1.your-objectstorage.com/s/v3/b3d6ad3bd7ed0e180e4ee3f0088ba027bf454847_screenshot_2025-07-12_at_1.33.26___am.png)
+
+
+
+
+
+## Shemetic       
+
+![image2](https://hc-cdn.hel1.your-objectstorage.com/s/v3/a6003a9084a64210ef7ca12504e62a7d91415460_screenshot_2025-07-12_at_12.02.03___am.png)
+
+
+
+
 ## Full Macropad design     
 
-![image1](https://hc-cdn.hel1.your-objectstorage.com/s/v3/76ea3f0357c3c049f1419e6bd2b059cc01bfe10c_screenshot_2025-07-13_at_4.55.08___pm.png)
+![image3](https://hc-cdn.hel1.your-objectstorage.com/s/v3/76ea3f0357c3c049f1419e6bd2b059cc01bfe10c_screenshot_2025-07-13_at_4.55.08___pm.png)
 
 
 
 
 ## Backside of macropad     
 
-![image2](https://hc-cdn.hel1.your-objectstorage.com/s/v3/3017eef95292727ff0c763d5a1ef906ecd4375c0_screenshot_2025-07-13_at_7.10.08___pm.png)    
+![image3](https://hc-cdn.hel1.your-objectstorage.com/s/v3/3017eef95292727ff0c763d5a1ef906ecd4375c0_screenshot_2025-07-13_at_7.10.08___pm.png)    
 
 
 
 
 ## Bottom part     
 
-![image1](https://hc-cdn.hel1.your-objectstorage.com/s/v3/154f3e5df5ea869b7e52b4dadb584f8f7d012e61_screenshot_2025-07-13_at_7.09.20___pm.png)    
+![image4](https://hc-cdn.hel1.your-objectstorage.com/s/v3/154f3e5df5ea869b7e52b4dadb584f8f7d012e61_screenshot_2025-07-13_at_7.09.20___pm.png)    
 
 
 
 
 ## Top part     
 
-![image1](https://hc-cdn.hel1.your-objectstorage.com/s/v3/666b6cdf98a71007e8f171d663df3e40fdb64bd4_screenshot_2025-07-13_at_7.09.33___pm.png)
+![image5](https://hc-cdn.hel1.your-objectstorage.com/s/v3/666b6cdf98a71007e8f171d663df3e40fdb64bd4_screenshot_2025-07-13_at_7.09.33___pm.png)
 
 
 
