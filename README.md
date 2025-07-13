@@ -39,14 +39,14 @@ I have been stugling using some of the features which waste a lot of time while 
 
 
 
-## Full Bottom part     
+## Bottom part     
 
 ![image1](https://hc-cdn.hel1.your-objectstorage.com/s/v3/154f3e5df5ea869b7e52b4dadb584f8f7d012e61_screenshot_2025-07-13_at_7.09.20___pm.png)    
 
 
 
 
-## Full Top part     
+## Top part     
 
 ![image1](https://hc-cdn.hel1.your-objectstorage.com/s/v3/666b6cdf98a71007e8f171d663df3e40fdb64bd4_screenshot_2025-07-13_at_7.09.33___pm.png)
 
