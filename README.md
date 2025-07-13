@@ -20,6 +20,7 @@ I have been stugling using some of the features which waste a lot of time while 
 | 4   | M3 heatset inserts            |
 | 9   | keycaps                       |
 | 1   | Case top and bottom           |
+| 4   | rubber feet                   |
 
 
 
